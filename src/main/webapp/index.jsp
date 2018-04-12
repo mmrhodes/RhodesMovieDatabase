@@ -1,1 +1,1 @@
-<% response.sendRedirect("form.mvc"); %>s
+<% response.sendRedirect("form.mvc"); %>
