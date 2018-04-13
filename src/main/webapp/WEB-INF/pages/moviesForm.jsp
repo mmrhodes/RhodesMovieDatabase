@@ -25,7 +25,7 @@
 	        <td><mvc:input path="leadActress" /></td>
 	    </tr>
 	    <tr>
-	        <td><mvc:label path="releaseyear">Year Released</mvc:label></td>
+	        <td><mvc:label path="releaseYear">Year Released</mvc:label></td>
 	        <td><mvc:input path="releaseYear" /></td>
 	    </tr>
    	    
