@@ -13,20 +13,24 @@
 <mvc:form modelAttribute="movies" action="result.mvc">
 	<table>
 	    <tr>
-	        <td><mvc:label path="title">Name</mvc:label></td>
+	        <td><mvc:label path="title">Movie Title</mvc:label></td>
 	        <td><mvc:input path="title" /></td>
 	    </tr>
 	    <tr>
-	        <td><mvc:label path="leadactor">Last Name</mvc:label></td>
+	        <td><mvc:label path="leadactor">Lead Actor</mvc:label></td>
+	        <td><mvc:input path="leadactor" /></td>
+	    </tr>
+	    <tr>
+	        <td><mvc:label path="leadactress">Lead Actress</mvc:label></td>
 	        <td><mvc:input path="leadactress" /></td>
 	    </tr>
 	    <tr>
-	        <td><mvc:label path="releaseyear">Password</mvc:label></td>
+	        <td><mvc:label path="releaseyear">Year Released</mvc:label></td>
 	        <td><mvc:password path="releaseyear" /></td>
 	    </tr>
    	    
         <tr>
-	        <td><mvc:label path="media">media</mvc:label></td>
+	        <td><mvc:label path="media">Media</mvc:label></td>
 	        <td><mvc:radiobuttons path="media" />
 	        	</td>
 	    </tr>
