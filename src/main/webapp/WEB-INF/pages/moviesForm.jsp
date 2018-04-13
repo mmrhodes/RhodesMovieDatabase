@@ -22,11 +22,11 @@
 	    </tr>
 	    <tr>
 	        <td><mvc:label path="leadActress">Lead Actress</mvc:label></td>
-	        <td><mvc:input path="leadactress" /></td>
+	        <td><mvc:input path="leadActress" /></td>
 	    </tr>
 	    <tr>
 	        <td><mvc:label path="releaseyear">Year Released</mvc:label></td>
-	        <td><mvc:password path="releaseYear" /></td>
+	        <td><mvc:input path="releaseYear" /></td>
 	    </tr>
    	    
         <tr>
