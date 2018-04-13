@@ -17,16 +17,16 @@
 	        <td><mvc:input path="title" /></td>
 	    </tr>
 	    <tr>
-	        <td><mvc:label path="leadactor">Lead Actor</mvc:label></td>
-	        <td><mvc:input path="leadactor" /></td>
+	        <td><mvc:label path="leadActor">Lead Actor</mvc:label></td>
+	        <td><mvc:input path="leadActor" /></td>
 	    </tr>
 	    <tr>
-	        <td><mvc:label path="leadactress">Lead Actress</mvc:label></td>
+	        <td><mvc:label path="leadActress">Lead Actress</mvc:label></td>
 	        <td><mvc:input path="leadactress" /></td>
 	    </tr>
 	    <tr>
 	        <td><mvc:label path="releaseyear">Year Released</mvc:label></td>
-	        <td><mvc:password path="releaseyear" /></td>
+	        <td><mvc:password path="releaseYear" /></td>
 	    </tr>
    	    
         <tr>

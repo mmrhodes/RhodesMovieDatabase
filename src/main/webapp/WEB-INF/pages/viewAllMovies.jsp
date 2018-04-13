@@ -17,15 +17,15 @@
         </tr>
         <tr>
             <td>Lead Actor</td>
-            <td>${m.leadactor}</td>
+            <td>${m.leadActor}</td>
         </tr>
         <tr>
             <td>Lead Actress</td>
-            <td>${m.leadactress}</td>
+            <td>${m.leadActress}</td>
         </tr>
         <tr>
             <td>Release Year</td>
-            <td>${m.releaseyear}</td>
+            <td>${m.releaseYear}</td>
         </tr>
         
         <tr>
