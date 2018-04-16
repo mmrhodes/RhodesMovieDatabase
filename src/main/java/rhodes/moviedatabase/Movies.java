@@ -16,8 +16,7 @@ public class Movies {
 	private String leadActress;
 	private int releaseYear;
 	private Media media;
-	private boolean isKidFriendly;
-	public String getTitle() {
+		public String getTitle() {
 		return title;
 	}
 	public void setTitle(String title) {
@@ -47,12 +46,7 @@ public class Movies {
 	public void setMedia(Media media) {
 		this.media = media;
 	}
-	public boolean isKidFriendly() {
-		return isKidFriendly;
-	}
-	public void setKidFriendly(boolean isKidFriendly) {
-		this.isKidFriendly = isKidFriendly;
-	}
+	
 	public int getId() {
 		return id;
 	}

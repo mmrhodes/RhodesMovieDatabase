@@ -24,7 +24,7 @@ public class MoviesDao {
 	public List<Movies> getAllMovies(){
 		EntityManager em = emfactory.createEntityManager();
 		em.getTransaction().begin();
-		String q = "select m from User m";
+		String q = "select m from Movies m";
 		TypedQuery<Movies>typedQuery = em.createQuery(q, Movies.class);
 		List<Movies>all = typedQuery.getResultList();
 		return all;
